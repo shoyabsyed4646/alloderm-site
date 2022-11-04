@@ -1,0 +1,17 @@
+{
+  "name": "netlify-migration-starter",
+  "version": "3.0.0",
+  "description": "Netlify migration sites",
+  "scripts": {
+    "start": "browser-sync start -s 'src'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:venture-moonwalker/aaaem/netlify-migration-starter.git"
+  },
+  "author": "AAAEM",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.10"
+  }
+}
