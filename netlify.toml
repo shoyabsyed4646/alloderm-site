@@ -6,19 +6,4 @@
   publish = "src"
 
 [dev]
-  NODE_ENV = "development"
-  ENV = "development"
-  BASE_URL = "http://localhost:3000"
-  command = "./netlify-dev.sh" # Command to start your dev server
-  framework = "#custom"
-  port = 8888 # Port that the dev server will be listening on
-  targetPort = 3000 # Port that the dev server will be listening on
   publish = "src"
-
-[context.develop.environment]
-  NODE_ENV = "development"
-  ENV = "development"
-
-[context.master.environment]
-  NODE_ENV = "production"
-  ENV = "production"
