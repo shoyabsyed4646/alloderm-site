@@ -22,7 +22,8 @@
 httrack "https://www.{domainURL}/" -O "" "+*.{domainURL}/*" -v```
     1. Example: `httrack "https://www.dontmesharound.com/" -O "" "+*.dontmesharound.com/*" -v`
     - This process can take a few minutes.
-    - All sites files shoule be placed in `src` folder.
+    - httrack may provide the files in a nested folder, i.e. dontmesharound > www.dontmesharound.com
+    - You want to make sure to grab all the files located in the www.{domainUrl}.com folder and paste in the `src`.
 1. Once that is complete, in Terminal navigate to `src` directory
 1. Run `yarn start` (Starts a server with browser-sync.)
 1. Compare the local site with the live site
