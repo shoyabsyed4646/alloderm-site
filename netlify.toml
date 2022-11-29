@@ -4,6 +4,7 @@
 [build]
   functions = "functions"
   publish = "src"
+  command = "npm run build"
 
 [dev]
   publish = "src"
