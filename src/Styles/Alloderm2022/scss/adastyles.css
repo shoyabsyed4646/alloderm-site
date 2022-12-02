@@ -1,0 +1,792 @@
+﻿.adastyle header nav.navbar .navigationLinks .top-nav .top-nav-text,
+.adastyle header nav.navbar .navigationLinks .top-nav .top-nav-link li,
+.adastyle header nav.navbar .navigationLinks .top-nav .top-nav-link li a,
+.adastyle .isi-area .isi-content p,
+.adastyle .isi-area .content-area .col-12 .row,
+.adastyle .modal .modal-dialog .modal-content .modal-body p,
+.adastyle .content-area.contentportfolio ul a,
+.adastyle .twocolumnvideo .row .container .row .col-12 .row .block2,
+.adastyle .splitter.contentportfolio h2,
+.adastyle .splitter.implantable .row .container .row > h2,
+.adastyle .splitter.contentportfolio p span,
+.adastyle .content-area.contentportfolio-footer p a,
+.adastyle .multicolumn.perforated-sec .container .item > div .item-content h2 a,
+.adastyle .multicolumn.allodermrtmguarantee .row .header-section h2,
+.adastyle .multicolumn.rem-item1 .row .header-section h2,
+.adastyle .multicolumn.rem-item2 .row:first-child .header-section h2 .emailLink,
+.adastyle .multicolumn.rem-item5 .header-section h2 a,
+.adastyle .multicolumn.down-item1 .item .item-content a,
+.adastyle .multicolumn.publications-content-sec .container .row .item .item-content h2:first-child,
+.adastyle .multicolumn.rem-item6 .row .container .row .col-12 .row:first-child .header-section p a,
+.adastyle .multicolumn.publications-content-sec .container .row .item:nth-child(4) .item-content > a,
+.adastyle .multicolumn.publications-sec .header-section p a,
+.adastyle .multicolumn.performance-header .row .header-section h2,
+.adastyle .multicolumn.performance-header .row .header-section p span,
+.adastyle .multicolumn.performance-header .footer-note p a,
+.adastyle .content-area.demonstrated h2,
+.adastyle .content-area.optimising h2,
+.adastyle .zoom-view-section.tissue-integrity-zoom .multicolumn-section .row .container .row .col-12 .row .item-heading h2,
+.adastyle .zoom-view-section.cell-population-zoom .main-heading p span,
+.adastyle .zoom-view-section.minimal-inflamation-zoom .main-heading p span,
+.adastyle .splitter.pliability-splitter .row .container .row p,
+.adastyle .zoom-view-section.minimal-inflamation-zoom .multicolumn-section .row .container .row .col-12 .row .item-heading h2,
+.adastyle .multicolumn.scar-formation-lack .row .header-section h2,
+.adastyle .multicolumn.pliability-mc .row .header-section h2,
+.adastyle .twocolumn.biology-of-repair-hero .block2 h2,
+.adastyle .zoom-view-section .multicolumn-section .image-container .image .img-head-text h3,
+.adastyle .content-area.learn-more-sec .row .container .row .col-12 .row p,
+.adastyle .multicolumn.choose-a-topic .row .container .row .col-12 .row .header-section h2,
+.adastyle .flip-card-section.multicolumn .row .header-section h2,
+.adastyle .content-area.for-queries .row .container .row .col-12 .row p a,
+.adastyle .zoom-view-section.cell-population-zoom .multicolumn-section .row .container .row .col-12 .row .item-heading h2,
+.adastyle .zoom-view-section.tissue-integrity-zoom .multicolumn-section .row .container .row .col-12 .row .item-heading h2,
+.adastyle .content-area.references-section .col-12 .row {
+    color: #696969 !important;
+}
+
+.adastyle .content-area.contentportfolio-footer p a,
+.adastyle .multicolumn.perforated-sec .container .item > div .item-content h2 a,
+.adastyle .multicolumn.down-item1 .item .item-content a,
+.adastyle .multicolumn.publications-sec .header-section p a,
+.adastyle .zoom-view-section.tissue-integrity-zoom .multicolumn-section .row .container .row .col-12 .row .item-heading {
+    border-bottom-color: #696969 !important;
+}
+
+    .adastyle .multicolumn.down-item1 .item .item-content a::after,
+    .adastyle .multicolumn.bluebg-item1 .row + .row + .row p a {
+        background-color: #696969;
+    }
+
+.adastyle .flip-card-section.multicolumn .row .header-section h2 span {
+    color: #004d6d !important
+}
+
+.adastyle .multicolumn.bluebg-item1 .row + .row + .row p,
+.adastyle .multicolumn.body-response .row .header-section p,
+.adastyle .multicolumn.scar-formation-lack-chart .row .item .item-content p {
+    color: #fff;
+}
+
+.adastyle .navbar-light .navbar-nav .nav-link,
+.adastyle .navbar-light .navbar-toggler {
+    color: #696969 !important;
+}
+
+header nav.navbar .navigationLinks .container {
+    width: 656px;
+}
+
+.multicolumn.allodermrtmguarantee .item .item-img img {
+    width: 360px;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.focus,
+.multicolumn.publications-sec .item div .item-content:hover,
+.content-area.learn-more-sec .row .container .row .col-12 .row a:hover {
+    background-color: #ee7623;
+    border-color: #ee7623;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.multicolumn.publications-sec .item div .item-content a.btn-primary {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.flip-card {
+    cursor: pointer;
+}
+
+.multicolumn.publications-sec .item {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .multicolumn.whitebg-portitem3 .item-img,
+    .multicolumn.whitebg-portitem4 .item-img,
+    .multicolumn.whitebg-portitem5 .item-img {
+        text-align: center;
+    }
+
+    .multicolumn.whitebg-portitem1 .row .item > div,
+    .multicolumn.whitebg-portitem2 .row .item > div,
+    .multicolumn.whitebg-portitem3 .row .item > div,
+    .multicolumn.whitebg-portitem4 .row .item > div,
+    .multicolumn.whitebg-portitem5 .row .item > div {
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .banner-sec .info h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-sec .row {
+        text-align: center;
+    }
+
+    .banner-sec .row {
+        text-align: center;
+    }
+
+    .multicolumn.graftable .item:first-child:nth-last-child(3),
+    .multicolumn.graftable .item:first-child:nth-last-child(3) ~ .item {
+        width: 37% !important;
+    }
+
+    .perforated,
+    .nonperforated {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .content-area.contentportfolio ul {
+        width: 100% !important;
+    }
+
+    .splitter h2 {
+        font-size: 1.625rem;
+        text-align: center;
+    }
+
+    .perforated.multicolumn .item:first-child:nth-last-child(2),
+    .perforated.multicolumn .item:first-child:nth-last-child(2) ~ .item,
+    .nonperforated.multicolumn .item:first-child:nth-last-child(2),
+    .nonperforated.multicolumn .item:first-child:nth-last-child(2) ~ .item {
+        width: 50%;
+    }
+}
+
+.adastyle .isi-area.on-page .isi-content .isi-header,
+.adastyle .isi-area.fixed .container-fluid .row .isi-header,
+.adastyle .isi-area.fixed .container-fluid .row,
+.isi-area.fixed .container-lg .row,
+.adastyle .isi-area.fixed .container-md .row,
+.isi-area.fixed .container-xl .row {
+    background: #696969 !important;
+}
+
+.adastyle .content-area.contentportfolio h1,
+.adastyle .content-area.contentportfolio p:first-child,
+.adastyle .isi-area a,
+.adastyle .content-area.contenthome .container .col-12 p:first-child {
+    color: #696969 !important;
+}
+
+.adastyle .multicolumn.whitebg-item1 .row .header-section h2,
+.adastyle .multicolumn.whitebg-item2 .col-12 .row .header-section h2 {
+    color: #696969 !important;
+}
+
+.adastyle .multicolumn.bluebg-item1 .row .header-section h2 {
+    color: #ffffff !important;
+}
+
+.adastyle .isi-area .isi-content h2 {
+    color: #696969 !important;
+}
+
+.adastyle .banner-sec .info h1 {
+    color: #ffffff !important;
+}
+
+/*//Alloderm ADA and 15 Updates*/
+
+.content-area.resources-sec h1 {
+    text-align: center;
+}
+
+.content-area.resources-sec p {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 0.95px;
+    font-family: "MyriadPro-Light";
+}
+
+    /*//add a br statement after, and see*/
+    .content-area.resources-sec p.clinical {
+        margin-top: 1rem;
+    }
+
+.content-area.resources-sec strong {
+    font-family: "MyriadPro-Light";
+}
+
+.multicolumn.allodermrtmguarantee .row .header-section h2 {
+    text-align: center;
+}
+
+.multicolumn.allodermrtmguarantee .row .header-section p {
+    text-align: center;
+}
+
+.multicolumn.allodermrtmguarantee .item .item-content p {
+    font-family: "MyriadPro-Bold";
+    font-weight: 700;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+    .multicolumn.allodermrtmguarantee .item .item-content p a,
+    .multicolumn.allodermrtmguarantee .item .item-content p a:hover {
+        color: #231f20;
+        text-decoration: none;
+    }
+
+footer .footer-label-text sup {
+    top: -3.5px;
+    font-size: 60%;
+}
+
+.multicolumn.allodermrtmguarantee .item > div {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.multicolumn.allodermrtmguarantee .item .item-img {
+    width: 50%;
+}
+
+.multicolumn.allodermrtmguarantee .item .item-content {
+    width: 100%;
+}
+
+.multicolumn.allodermrtmguarantee .item .item-footer-note {
+    width: 50%;
+    margin-top: 30px;
+}
+
+    .multicolumn.allodermrtmguarantee .item .item-footer-note h2,
+    .multicolumn.allodermrtmguarantee .item .item-footer-note p {
+        font-size: 12px;
+    }
+
+    .multicolumn.allodermrtmguarantee .item .item-footer-note ul li {
+        line-height: 16px;
+    }
+
+/*.multicolumn.rem-item1 {
+    background-color: #f5f5f5;
+    padding-top: 35px;
+}*/
+
+.multicolumn.down-item1 {
+    padding-top: 35px;
+}
+
+    .multicolumn.down-item1 .item .item-img img {
+        height: 100px;
+    }
+
+    .multicolumn.down-item1 .item {
+        padding-bottom: 65px;
+    }
+
+        .multicolumn.down-item1 .item > div {
+            display: flex;
+        }
+
+        .multicolumn.down-item1 .item .item-content {
+            position: relative;
+            top: 45%;
+            left: 30px;
+            color: #231f20;
+        }
+
+    /*.multicolumn.down-item1 .row .header-section h2, .multicolumn.rem-item1 .row .header-section h2 {
+        font-family: 'MyriadPro-SemiboldCond';
+        font-size: 1.875rem;
+        color: #004e72;
+        margin: 0 auto;
+    }*/
+
+    .multicolumn.down-item1 .row .header-section h2 {
+        margin-bottom: 30px;
+    }
+
+/*.multicolumn.down-item1 .row .header-section, .multicolumn.rem-item1 .row .header-section {
+        text-align: left;
+        margin: 0 auto;
+        width: 100%;
+    }*/
+
+.multicolumn.offwhitebg-item1 .col-12 .row .item > div .item-content p {
+    width: 70%;
+    font-size: 14px;
+}
+
+.multicolumn.offwhitebg-item2 .col-12 .row .item > div .item-content p {
+    width: 75%;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.multicolumn.down-item1 .item .item-content sup {
+    font-size: 8px;
+    top: -9px;
+}
+
+.multicolumn.down-item1 .item:first-child .item-content {
+    left: 45px;
+}
+
+.multicolumn.down-item1 .item:first-child .item-img img {
+    height: 140px;
+}
+
+/*.rem-item1 span.smallcaps {
+    font-size:10px;
+}*/
+
+.content-area.contentportfolio ul {
+    text-align: left;
+    line-height: 1.5;
+    width: 76%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: #231f20;
+}
+
+.content-area.contentportfolio p:last-child {
+    width: 76%;
+}
+
+.multicolumn .item .content-area h2 {
+    font-size: 1.85rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "MyriadPro-SemiboldCond";
+    margin-bottom: 40px;
+}
+
+.content-area.contentportfolio {
+    padding-bottom: 2.625rem;
+}
+
+.multicolumn .item .content-area p {
+    width: 67%;
+    margin: 0 auto;
+    text-align: center;
+    color: #f07622;
+    font-size: 1.88rem;
+    font-family: "MyriadPro-BoldSemiCn";
+}
+
+section.container-fluid.banner-sec {
+    max-width: 100%;
+}
+
+/*.container-fluid {
+    max-width:1200px;
+}*/
+.perforated,
+.nonperforated {
+    width: 50%;
+    float: left;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+    .perforated h2,
+    .nonperforated h2 {
+        font-family: "MyriadPro-Semibold";
+    }
+
+.splitter h2 {
+    font-family: "MyriadPro-SemiboldCond";
+    font-size: 1.875rem;
+    color: #004e72;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.splitter p {
+    text-align: center;
+    font-size: 1.88rem;
+    color: #f07724;
+    width: 100%;
+    font-family: "MyriadPro-Regular";
+}
+
+.graftable {
+    background: #e9e8e8;
+    max-width: 100%;
+}
+
+    .graftable .item {
+        text-align: center;
+        padding-bottom: 50px;
+        width: 16%;
+    }
+
+    .graftable .row .header-section h2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: #db6d22;
+    }
+
+    .graftable .item > div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+.content-area.contentportfolio ul a {
+    color: #f07724;
+}
+
+.multicolumn.graftable .item:first-child:nth-last-child(3),
+.multicolumn.graftable .item:first-child:nth-last-child(3) ~ .item {
+    text-align: center;
+    padding-bottom: 50px;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.graftable .item-img {
+    order: 2;
+}
+
+.graftable img {
+    transform: rotate(90deg);
+}
+
+.graftable .item-content {
+    order: 1;
+}
+
+    .graftable .item-content h2 {
+        color: #004e72;
+        font-family: "MyriadPro-Semibold";
+        font-size: 24px;
+    }
+
+.graftable .container .row {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+}
+
+.isi-area.on-page .isi-content .isi-header sup.content_sup {
+    font-size: 55%;
+    top: -0.7em;
+}
+
+@media only screen and (max-width: 767px) {
+    .graftable .item:last-child .item-content {
+        order: 2;
+    }
+
+    .splitter h2 {
+        width: 86%;
+    }
+
+    .whitebg-portitem2 .item-img {
+        text-align: center;
+    }
+
+    .graftable .container .row {
+        width: 100%;
+    }
+
+    .graftable .item-content h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .graftable .item-img img {
+        width: 127px;
+    }
+
+    .graftable .item:nth-child(2) > div img {
+        margin-right: -49px;
+    }
+
+    .graftable .item:first-child > div img {
+        margin-left: -35px;
+    }
+
+    .graftable .item:nth-child(2) h2 {
+        margin-left: 35px;
+    }
+
+    .graftable .item:first-child h2 {
+        margin-left: -38px;
+    }
+
+    .graftable .item:nth-child(3) h2 {
+        margin-left: -10px;
+    }
+
+    .multicolumn.offwhitebg-item2 .row:last-child .footer-note p {
+        margin-bottom: 0;
+        text-align: left;
+        width: 70%;
+        margin: 0 auto;
+        text-indent: -5px;
+    }
+
+    .emailLink {
+        font-size: 15px;
+    }
+
+    .multicolumn.down-item1 .item:nth-child(2) .item-content {
+        left: 33px;
+        top: 40%;
+    }
+
+    .multicolumn.down-item1 .item:nth-child(3) .item-content {
+        top: 35%;
+        left: 37px;
+    }
+
+    .multicolumn.offwhitebg-item2 .col-12 .row .item > div .item-content a.btn-primary {
+        display: block;
+        width: 30%;
+    }
+
+    .multicolumn.offwhitebg-item2 .col-12 .row .item > div .item-content a.btn-primary {
+        display: block;
+        width: 30%;
+    }
+
+    .multicolumn.allodermrtmguarantee .item .item-img,
+    .multicolumn.allodermrtmguarantee .item .item-footer-note {
+        width: 100%;
+    }
+
+    .multicolumn.allodermrtmguarantee .row .header-section h2,
+    .multicolumn.allodermrtmguarantee .row .header-section p {
+        text-align: left;
+    }
+
+    .multicolumn.allodermrtmguarantee .item .item-content p {
+        text-align: left;
+        width: 95%;
+        margin: 0;
+    }
+
+    .multicolumn.allodermrtmguarantee .item .item-footer-note h2,
+    .multicolumn.allodermrtmguarantee .item .item-footer-note p {
+        font-size: 16.1px;
+    }
+
+    .multicolumn.allodermrtmguarantee .item .item-footer-note ul li {
+        line-height: 22px;
+    }
+
+    /*.multicolumn.rem-item1 .col-12 .row {
+        padding: 25px 20px 0px;
+    }*/
+
+    .multicolumn.down-item1 .col-12 .row {
+        padding: 0px 20px;
+        display: flex;
+    }
+
+    .multicolumn.down-item1 .item .item-content {
+        left: 40px;
+        margin-right: 45px;
+    }
+
+    .multicolumn.down-item1 .item:first-child .item-content {
+        left: 55px;
+        width: 60%;
+    }
+
+    .multicolumn.down-item1 .item:last-child .item-content {
+        left: 20px;
+        margin-right: 20px;
+    }
+
+    /*.multicolumn.down-item1 .item:last-child .item-img img {
+        width:133px;
+    }*/
+
+    section.container-fluid.multicolumn.down-item1 .container .row:last-child .item:nth-child(2) {
+        order: 3;
+    }
+
+    section.container-fluid.multicolumn.down-item1 .container .row:last-child .item:nth-child(3) {
+        order: 2;
+    }
+
+    section.container-fluid.multicolumn.down-item1 .container .row:last-child .item:nth-child(1) {
+        order: 1;
+    }
+
+    section.container-fluid.multicolumn.down-item1 .container .row:last-child .item:nth-child(4) {
+        order: 4;
+    }
+
+    .content-area.resources-sec p {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        letter-spacing: normal;
+        font-size: 16.5px;
+    }
+
+    .multicolumn.down-item1 .item:first-child .item-img img {
+        width: 85px;
+    }
+
+    .multicolumn.down-item1 .item:last-child .item-img img {
+        width: 85px;
+    }
+
+    .multicolumn.down-item1 .item .item-content sup {
+        top: -6px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .multicolumn.down-item1 .item .item-img img {
+        height: 140px;
+    }
+
+    .multicolumn.down-item1 .item .item-content {
+        width: 50%;
+    }
+
+    .multicolumn.down-item1 .item:last-child .item-img img {
+        width: 125px;
+    }
+
+    .multicolumn.down-item1 .item:last-child .item-content {
+        left: 21px;
+        margin-right: 20px;
+        width: 70%;
+    }
+
+    .multicolumn.down-item1 .item {
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .multicolumn.down-item1 .item {
+        width: 50%;
+    }
+
+        .multicolumn.down-item1 .item > div {
+            width: 260px;
+        }
+
+        .multicolumn.down-item1 .item:first-child .item-content {
+            left: 35px;
+        }
+
+        .multicolumn.down-item1 .item .item-content {
+            top: 30%;
+        }
+
+        .multicolumn.down-item1 .item:last-child .item-content {
+            left: 15px;
+        }
+}
+
+.down-item1 .item .item-content h2 {
+    display: none;
+}
+
+.down-item1 .item .item-content a {
+    background: none;
+    color: #231f20;
+    border: none;
+    font-family: "MyriadPro-Regular";
+}
+
+    .down-item1 .item .item-content a:hover {
+        text-decoration: underline;
+        text-decoration-color: #231f20;
+    }
+
+    .down-item1 .item .item-content a.btn-primary:focus {
+        outline-style: none;
+        box-shadow: none;
+    }
+
+    .down-item1 .item .item-content a.btn-primary:not(:disabled):not(.disabled):active {
+        background-color: transparent !important;
+        color: #231f20;
+    }
+
+@media only screen and (max-width: 767px) {
+    .down-item1 .item .item-content a {
+        text-align: left;
+        position: relative;
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .down-item1 .item:first-child .item-content a {
+        left: 5px;
+        padding-left: 0;
+    }
+
+    .down-item1 .item:nth-child(3) .item-content {
+        width: 55%;
+        margin-right: 0;
+    }
+
+        .down-item1 .item:nth-child(3) .item-content a {
+            left: 0;
+            padding-right: 5px;
+            padding-left: 0;
+        }
+
+    .down-item1 .item:nth-child(2) .item-content a {
+        left: 5px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .down-item1 .item:last-child .item-content a {
+        left: 15px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    footer .footer-label-text {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .content-area.resources-sec p {
+        width: 80%;
+    }
+
+        .content-area.resources-sec p.clinical {
+            width: 85%;
+        }
+}
+
+.isi-area .isi-content p sup.trade {
+    font-size: 50%;
+    top: -0.75em;
+    font-family: "MyriadPro-Light";
+}
+
+.content-area.contentportfolio ul span {
+    margin-left: -15px;
+}
