@@ -1,7 +1,7 @@
 {
   "name": "HCP Alloderm",
   "version": "3.0.0",
-  "description": "HCP Alloderm static site",
+  "description": "HCP Alloderm ssg on Netlify",
   "scripts": {
     "start": "cd src && http-server --proxy http://127.0.0.1:8080/index.html",
     "build": "cp _headers src && cp _redirects src"
