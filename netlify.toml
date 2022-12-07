@@ -1,5 +1,5 @@
 [Settings]
-  ID = "hcpalloderm"
+  ID = "hcp-alloderm"
 
 [build]
   functions = "functions"
