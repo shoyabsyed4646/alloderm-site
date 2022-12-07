@@ -1,5 +1,5 @@
 {
-  "name": "HCP Alloderm",
+  "name": "hcp-alloderm-static",
   "version": "3.0.0",
   "description": "HCP Alloderm ssg on Netlify",
   "scripts": {
