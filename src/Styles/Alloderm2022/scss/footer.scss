@@ -1,0 +1,124 @@
+footer {
+    background: $secondary-color;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: solid 5px #e15829;
+
+    & .footer-content {
+        max-width: 992px;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    & .navigationLinks {
+        & .top-nav {
+            & ul {
+                padding: 0;
+                padding-left: 80px;
+                margin: 0;
+                margin-top: -10px;
+                text-transform: uppercase;
+
+                & li {
+                    list-style-type: none;
+                    display: inline-block;
+                    font-family: Arial;
+                    font-size: 0.688rem;
+                    padding: 0.5rem 0 1.875rem;
+                    margin-right: 20px;
+
+                    & a {
+                        color: $white-color;
+                        border-bottom: solid 1px #fff;
+                        letter-spacing: -0.5px;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    & .footer-label-text {
+        font-size: 11px;
+        color: $white-color;
+        font-family: Arial;
+
+        & a {
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+
+    & .footer-brand-logo {
+        & img {
+            width: 162px;
+        }
+    }
+}
+
+@media only screen and (min-width: $tabMinwidth) and (max-width: $tabMaxwidth) {
+    footer {
+        padding: 30px 55px !important;
+
+        & .navigationLinks {
+            & .top-nav {
+                & ul {
+                    padding: 0 0 0 10px;
+
+                    & li {
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $mobileMaxwidth) {
+    footer {
+        padding: 3.125rem 1.25rem !important;
+
+        & .footer-content {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        & .footer-label-text {
+            width: 97%;
+
+            & a {
+                text-decoration: none;
+                color: #fff;
+
+                &:hover {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+
+        & .navigationLinks {
+            & .top-nav {
+                & ul {
+                    padding: 1.563rem 0 1.875rem;
+
+                    & li {
+                        display: block;
+                        margin-bottom: 8px;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
