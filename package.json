@@ -1,7 +1,7 @@
 {
-  "name": "netlify-migration-starter",
+  "name": "HCP Alloderm",
   "version": "3.0.0",
-  "description": "Netlify migration sites",
+  "description": "HCP Alloderm static site",
   "scripts": {
     "start": "cd src && http-server --proxy http://127.0.0.1:8080/index.html",
     "build": "cp _headers src && cp _redirects src"
