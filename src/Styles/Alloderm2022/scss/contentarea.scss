@@ -1,0 +1,412 @@
+.content-area {
+    &.references-section {
+        padding: 30px 15px 35px;
+        text-align: left;
+
+        & .col-12 {
+            max-width: 100%;
+            width: 100%;
+
+            & .row {
+                display: inline-block;
+                font-family: "MyriadPro-Regular";
+                font-size: 0.625rem;
+                color: #898989;
+                letter-spacing: 0.2px;
+            }
+        }
+    }
+
+    &.demonstrated {
+        padding-top: 2rem;
+
+        & h2 {
+            text-align: center;
+            color: $primary-color;
+            font-family: "MyriadPro-Semibold";
+            font-size: 2.15rem;
+            display: block;
+            @extend .w-100;
+        }
+
+        & p {
+            text-align: center;
+            font-family: "MyriadPro-SemiboldCond";
+            color: $secondary-color;
+            font-size: 1.95rem;
+            display: block;
+            @extend .w-100;
+
+            & sup {
+                font-size: 60%;
+            }
+        }
+    }
+
+    &.learn-more-sec {
+        & .row {
+            & .container {
+                & .row {
+                    & .col-12 {
+                        & .row {
+                            display: block;
+                            text-align: center;
+
+                            & a {
+                                background-color: $secondary-color;
+                                color: $white-color;
+                                padding: 10px 25px 7px;
+                                font-size: 1.125rem;
+                                margin-right: 0.5rem;
+                                font-family: "MyriadPro-Regular";
+                                margin-top: -4px;
+                                letter-spacing: 1px;
+                            }
+
+                            & p {
+                                color: $primary-color;
+                                font-family: "MyriadPro-Semibold";
+                                font-size: 1.125rem;
+                                text-align: center;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                & sup {
+                                    font-size: 55%;
+                                    font-family: "MyriadPro-Regular";
+                                    right: 0.1em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.optimizing-learn-more {
+            padding-top: 1rem;
+            background-color: #f5f5f5;
+        }
+    }
+
+    &.optimising {
+        padding-top: 2rem;
+
+        & h2,
+        & h1 {
+            text-align: center;
+            color: $primary-color;
+            font-family: "MyriadPro-Semibold";
+            font-size: 2.15rem;
+            display: block;
+            @extend .w-100;
+
+            & sup {
+                font-family: "MyriadPro-Semibold";
+                font-size: 55%;
+            }
+
+            & a {
+                text-decoration: underline;
+                color: $textprimary-color;
+            }
+        }
+
+        & p {
+            text-align: left;
+            font-family: "MyriadPro-Regular";
+            color: $textprimary-color;
+            font-size: 1.125rem;
+            display: block;
+            @extend .w-100;
+
+            & sup {
+                font-family: "MyriadPro-Regular";
+                font-size: 55%;
+            }
+
+            & a {
+                text-decoration: underline;
+                color: #3f3f3f;
+            }
+        }
+    }
+
+    &.correlation {
+        & .row {
+            & .container {
+                & .row {
+                    & .col-12 {
+                        & .row {
+                            margin: 15px -15px 0;
+                            color: $textprimary-color;
+                            font-size: 0.85rem;
+                            font-family: "MyriadPro-Regular";
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.performace-correlation {
+        background-color: #004e6d;
+        padding-bottom: 1.5rem;
+
+        & .row {
+            & .container {
+                & .row {
+                    & .col-12 {
+                        & .row {
+                            color: $white-color;
+                            margin-left: 30px;
+
+                            & p {
+                                color: $white-color;
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.pliability-correlation {
+        padding-bottom: 1.5rem;
+
+        & .row {
+            & .container {
+                & .row {
+                    & .col-12 {
+                        & .row {
+                            width: 94%;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.for-queries {
+        padding-top: 1rem;
+
+        & .row {
+            & .container {
+                & .row {
+                    & .col-12 {
+                        & .row {
+                            color: $textprimary-color;
+                            font-size: 0.85rem;
+                            font-family: "MyriadPro-Regular";
+                            text-align: center;
+
+                            & p {
+                                color: $textprimary-color;
+                                font-size: 1rem;
+                                font-family: "MyriadPro-Regular";
+                                text-align: center;
+                                width: 100%;
+                                margin-bottom: 0;
+
+                                & a {
+                                    color: $primary-color;
+                                    text-decoration: underline;
+                                    text-underline-position: under;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.lack-of-resorption-footnote {
+        & .row {
+            & .container {
+                & .row {
+                    & .col-12 {
+                        & p,
+                        & span {
+                            font-family: "MyriadPro-Regular";
+                            color: #3f3f3f;
+                            display: block;
+                            margin-top: 1rem;
+                            font-size: 0.875rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .content-area.learn-more-sec {
+        .row {
+            .container {
+                .row {
+                    .col-12 {
+                        .row {
+                            & p {
+                                display: inline-block;
+                                font-size: 0.95rem;
+
+                                a {
+                                    font-size: 0.95rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $mobileMaxwidth) {
+    .content-area.for-queries .row .container .row .col-12 .row p {
+        font-size: 1rem;
+        width: 90%;
+        margin-bottom: 0;
+        margin: auto;
+    }
+
+    .content-area {
+        &.references-section {
+            text-align: left;
+
+            & .col-12 {
+                max-width: 90%;
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+
+        &.learn-more-sec {
+            & .row {
+                & .container {
+                    & .row {
+                        & .col-12 {
+                            & .row {
+                                & a {
+                                    display: block;
+                                    padding: 10px 15px;
+                                    font-size: 1.125rem;
+                                    margin-right: 0;
+                                    font-family: "MyriadPro-Regular";
+                                    margin: 0 auto 15px;
+                                    width: 50%;
+                                }
+
+                                & p {
+                                    color: $primary-color;
+                                    font-family: "MyriadPro-Regular";
+                                    font-size: 1.125rem;
+                                    text-align: center;
+                                    display: block;
+                                    margin: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.correlation,
+        &.pliability-correlation {
+            & .row {
+                & .container {
+                    & .row {
+                        & .col-12 {
+                            & .row {
+                                margin: 15px 0 0;
+                                font-size: 13px;
+                                text-indent: -6px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.performace-correlation {
+            display: none;
+
+            & .row {
+                & .container {
+                    & .row {
+                        & .col-12 {
+                            & .row {
+                                margin-left: 0px;
+
+                                & p {
+                                    color: $white-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.demonstrated {
+            & h2 {
+                font-size: 2.15rem;
+                line-height: 1;
+                max-width: 95%;
+                margin: 0.85rem auto;
+            }
+
+            & p {
+                font-size: 1.5rem;
+                max-width: 90%;
+                margin: 0.5rem auto 1.125rem;
+            }
+        }
+
+        &.optimising {
+            & h2,
+            & h1 {
+                font-size: 1.895rem;
+                line-height: 1.1;
+                margin-top: 10px;
+                margin-bottom: 1rem;
+            }
+
+            & p {
+                font-size: 1rem;
+                line-height: 1;
+                max-width: 85%;
+                margin: 0.5rem auto 1.125rem;
+                text-align: center;
+            }
+        }
+
+        &.lack-of-resorption-footnote {
+            & .row {
+                & .container {
+                    & .row {
+                        & .col-12 {
+                            & p {
+                                margin-left: 15px;
+                                margin-right: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* CSS specific to iOS devices */
+@supports (-webkit-touch-callout: none) {
+    .content-area.parallex {
+        background-attachment: scroll;
+    }
+}

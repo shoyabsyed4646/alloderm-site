@@ -1,0 +1,30 @@
+.backtotop {
+    position: fixed;
+    bottom: 3%;
+    z-index: 101;
+    right: 1%;
+    display: none;
+    cursor: pointer;
+
+    .icon {
+        width: 55px;
+
+        img {
+            width: 100%;
+        }
+
+        & svg {
+            opacity: 0.5;
+
+            &:hover {
+                fill: $theme-color;
+                opacity: 1;
+            }
+        }
+    }
+
+    .text {
+        border-bottom: 2px solid #333;
+        font-weight: bold;
+    }
+}
