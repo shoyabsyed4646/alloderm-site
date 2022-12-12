@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /sitecore
+
+Sitemap: https://hcp.alloderm.com/sitemap.xml
