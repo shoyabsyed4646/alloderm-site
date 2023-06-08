@@ -54,17 +54,22 @@ exports.handler = async function (event, context, callback) {
 			body: "Method Not Allowed"
 		};
 	}
-
 	try {
     data = JSON.parse(event.body);
   } catch (err) {
     data = event.queryStringParameters;
   }
 
+	if (!data._answers || !data._answers.OrderDetails) {
+		return {
+			statusCode: statusCode.missingData,
+			body: 'Missing data'
+		};
+	}
+
 	const { _answers: { OrderDetails } } = data;
 	const totalProducts = OrderDetails.length;
 	const pagesData = [...organizeData(OrderDetails)];
-	const table = [];
 
 	const myriadProRegular = await fs.readFileSync(require.resolve('./embedFonts/MyriadPro-Regular.ttf'));
 	const myriadProBold = await fs.readFileSync(require.resolve('./embedFonts/MyriadPro-Bold.ttf'));
