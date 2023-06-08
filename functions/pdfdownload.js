@@ -79,8 +79,6 @@ exports.handler = async function (event, context, callback) {
   const fontBold = await pdfDoc.embedFont(myriadProBold); 
 	const [loadedPdfFirstPage, loadedPdfSecondPage] = await pdfDoc.copyPages(loadedPdf, [0, 1]);	
 
-	console.log(JSON.stringify(pagesData))
-
 	// If only 18 results, need to show page with footer, 2nd page in template.
 	if (totalProducts <= MAX_PER_PAGE) {
 		pdfDoc.addPage(loadedPdfSecondPage);
@@ -95,8 +93,6 @@ exports.handler = async function (event, context, callback) {
 		const { height } = page.getSize();
 		let pageRows = pagesData[pageIdx];
 		const startYPos = height - 600;
-
-		console.log(pageIdx, pageRows, pageRows[0].columns[1])
 
 		pageRows.forEach((row, rowIdx) => {
 			row.columns.forEach((col, colIdx) => {
