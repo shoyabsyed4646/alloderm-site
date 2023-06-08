@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pdf test</title>
+    <script src="https://unpkg.com/downloadjs@1.4.7"></script>
+
+</head>
+<body>
+    
+    <button id="submit">submit</button>
+
+    <script>
+        const MOCK_CART_DATA = {
+            "_answers": {
+                "OrderDetails": [
+                    {
+                        "Quantity": 10,
+                        "ItemCode": 151896,
+                        "OrderDescription": "8cm x 12cm Medium 1.2 ± 2.0mm"
+                    },
+                    {
+                        "Quantity": 5,
+                        "ItemCode": 141828,
+                        "OrderDescription": "4cm x 7cm Medium 1.2 ± 2.0mm"
+                    },
+                    {
+                        "Quantity": 8,
+                        "ItemCode": 141821,
+                        "OrderDescription": "3cm x 7cm Medium 1.2 ± 2.0mm"
+                    },
+                    {
+                        "Quantity": 2,
+                        "ItemCode": 141404,
+                        "OrderDescription": "1cm x 4cm X-Thin 0.3 ± 0.8mm"
+                    },
+                    {
+                        "Quantity": 5,
+                        "ItemCode": 141621,
+                        "OrderDescription": "3cm x 7cm Thin 0.8 ± 1.2mm"
+                    },
+                    {
+                        "Quantity": 1,
+                        "ItemCode": 141408,
+                        "OrderDescription": "2cm x 4cm X-Thin 0.3 ± 0.8mm"
+                    },
+                    {
+                        "Quantity": 2,
+                        "ItemCode": "CS1518",
+                        "OrderDescription": "Contour Small Medium 1.2 ± 2.0mm"
+                    },
+                    {
+                        "Quantity": 3,
+                        "ItemCode": "CXL1518P",
+                        "OrderDescription": "Contour X-Large Perforated Medium 1.2 ± 2.0mm"
+                    },
+                    {
+                        "Quantity": 3,
+                        "ItemCode": "RXL1518P",
+                        "OrderDescription": "RESTORE X-Large Perforated Medium 1.6 ± 0.4mm"
+                    },
+                    {
+                        "Quantity": 1,
+                        "ItemCode": 15181020,
+                        "OrderDescription": "10cm x 20cm Medium 1.2 ± 2.0mm"
+                    },
+                    {
+                        "Quantity": 1,
+                        "ItemCode": 1519108,
+                        "OrderDescription": "6cm x 18cm Thick 2.0 ± 2.8mm"
+                    },
+                    {
+                        "Quantity": 1,
+                        "ItemCode": 15181016,
+                        "OrderDescription": "10cm x 16cm Medium 1.2 ± 2.0mm"
+                    },
+                    {
+                        "Quantity": 1,
+                        "ItemCode": 141448,
+                        "OrderDescription": "4cm x 12cm X-Thin 0.3 ± 0.8mm"
+                    },
+                    {
+                        "Quantity": 1,
+                        "ItemCode": 141650,
+                        "OrderDescription": "5cm x 10cm Thin 0.8 ± 1.2mm"
+                    },
+                    {
+                        "Quantity": 4,
+                        "ItemCode": 151996,
+                        "OrderDescription": "8cm x 12cm Thick 2.0 ± 2.8mm"
+                    },
+                    {
+                        "Quantity": 4,
+                        "ItemCode": 15191016,
+                        "OrderDescription": "10cm x 16cm Thick 2.0 ± 2.8mm"
+                    },
+                    {
+                        "Quantity": 2,
+                        "ItemCode": 1418144,
+                        "OrderDescription": "12cm x 12cm Medium 1.21 ± 2.0mm"
+                    },
+                    {
+                        "Quantity": 4,
+                        "ItemCode": 1518160,
+                        "OrderDescription": "8cm x 20cm Medium 1.2 ± 2.0mm"
+                    }
+                ]
+            }
+        }
+        const button = document.getElementById('submit');
+
+        async function getPDF(data) {
+            const response = await fetch('/AllodermDownloadPDF/PDFDownload', {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+            });
+
+            return response
+        }
+
+        button.addEventListener('click', () => {
+            getPDF(MOCK_CART_DATA).then((data) => {
+                download(data.body, 'test.pdf', 'application/pdf')
+            });
+        })
+    </script>
+</body>
+</html>

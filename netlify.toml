@@ -8,3 +8,9 @@
 
 [dev]
   publish = "src"
+
+[[redirects]]
+  from = "/AllodermDownloadPDF/PDFDownload"
+  to = "http://localhost:8888/.netlify/functions/pdfdownload"
+  status = 200
+  force = true

@@ -4,7 +4,8 @@
   "description": "HCP Alloderm ssg on Netlify",
   "scripts": {
     "start": "cd src && http-server --proxy http://127.0.0.1:8080/index.html",
-    "build": "cp _headers src && cp _redirects src"
+    "build": "cp _headers src && cp _redirects src",
+    "netlify": "netlify dev"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,8 @@
   "author": "AAAEM",
   "license": "ISC",
   "dependencies": {
-    "http-serve": "^1.0.1"
+    "http-serve": "^1.0.1",
+    "pdf-lib": "^1.17.1",
+    "netlify-cli": "^12.5.0"
   }
 }
