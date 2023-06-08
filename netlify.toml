@@ -11,6 +11,6 @@
 
 [[redirects]]
   from = "/AllodermDownloadPDF/PDFDownload"
-  to = "http://localhost:8888/.netlify/functions/pdfdownload"
+  to = "/.netlify/functions/pdfdownload"
   status = 200
   force = true
