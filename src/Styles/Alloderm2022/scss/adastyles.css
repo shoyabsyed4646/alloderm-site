@@ -634,10 +634,13 @@ section.container-fluid.banner-sec {
     section.container-fluid.multicolumn.down-item1 .container .row:last-child .item:nth-child(4) {
         order: 4;
     }
+    section.container-fluid.multicolumn.down-item1 .container .row:last-child .item:nth-child(5) {
+        order: 5;
+    }
 
     .content-area.resources-sec p {
         width: 75%;
-        margin: 0 auto;
+        margin: 0 auto
         text-align: center;
         letter-spacing: normal;
         font-size: 16.5px;
