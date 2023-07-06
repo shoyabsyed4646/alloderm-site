@@ -6,6 +6,9 @@
   publish = "src"
   command = "npm run build"
 
+[functions]
+  included_files = ["assets/**"]
+
 [dev]
   publish = "src"
 
