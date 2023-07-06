@@ -20,7 +20,7 @@ const statusCode = {
 };
 
 function* chunks(arr, n) {
-  for (let i = 0; i < arr.length; i += n) {
+	for (let i = 0; i < arr.length; i += n) {
     yield arr.slice(i, i + n);
   }
 }
@@ -71,8 +71,8 @@ exports.handler = async function (event, context, callback) {
 	const totalProducts = OrderDetails.length;
 	const pagesData = [...organizeData(OrderDetails)];
 
-	const myriadProRegular = await fs.readFileSync(require.resolve('./embedFonts/MyriadPro-Regular.ttf'));
-	const myriadProBold = await fs.readFileSync(require.resolve('./embedFonts/MyriadPro-Bold.ttf'));
+	const myriadProRegular = await fs.readFileSync(require.resolve('./MyriadPro-Regular.ttf'));
+	const myriadProBold = await fs.readFileSync(require.resolve('./MyriadPro-Bold.ttf'));
 	const contents = await fs.readFileSync(require.resolve('./PDF-Template.pdf'));
 
   const loadedPdf = await PDFDocument.load(contents);
