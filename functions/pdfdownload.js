@@ -71,9 +71,9 @@ exports.handler = async function (event, context, callback) {
 	const totalProducts = OrderDetails.length;
 	const pagesData = [...organizeData(OrderDetails)];
 
-	const myriadProRegular = await fs.readFileSync(require.resolve('./MyriadPro-Regular.ttf'));
-	const myriadProBold = await fs.readFileSync(require.resolve('./MyriadPro-Bold.ttf'));
-	const contents = await fs.readFileSync(require.resolve('./PDF-Template.pdf'));
+	const myriadProRegular = await fs.readFileSync('./MyriadPro-Regular.ttf');
+	const myriadProBold = await fs.readFileSync('./MyriadPro-Bold.ttf');
+	const contents = await fs.readFileSync('./PDF-Template.pdf');
 
   const loadedPdf = await PDFDocument.load(contents);
   const pdfDoc = await PDFDocument.create();
