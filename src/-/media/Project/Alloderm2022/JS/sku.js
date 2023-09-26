@@ -525,7 +525,7 @@ $(document).ready(function () {
                         };
                         createBreadCrumb(temp);
                     } else {
-                        $('#step5 .screen-head-title').html('Choose your AlloDerm SELECT<sup>&trade;</sup>');
+                        $('#step5 .screen-head-title').html('Choose your AlloDerm SELECT<sup>&trade;</sup> thickness');
                         createButtons(
                             finalProductsDataArray[0].Implantable[
                             localStorage.getItem("selectedShape")
