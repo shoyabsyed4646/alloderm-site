@@ -5,7 +5,7 @@
   "scripts": {
     "start": "cd src && http-server --proxy http://127.0.0.1:8080/index.html",
     "build": "cp _headers src && cp _redirects src",
-    "netlify": "netlify dev"
+    "api": "netlify dev"
   },
   "repository": {
     "type": "git",
