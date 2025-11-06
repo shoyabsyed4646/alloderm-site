@@ -1,0 +1,8 @@
+name = "hcp-alloderm"
+compatibility_date = "2025-01-01" 
+
+[pages]
+pages_build_output_dir = "src"
+
+[build]
+command = "npm install"
