@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "HCP Alloderm ssg on Netlify",
   "engines": {
-    "node": ">=22.13.0" 
+    "node": ">=22.0.0" 
   },
   "scripts": {
     "start": "cd src && http-server --proxy http://127.0.0.1:8080/index.html",
